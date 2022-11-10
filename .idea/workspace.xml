@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0a9d8d4-4eea-40a3-bc71-f1fd42b861df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Binary _Search/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble_Sort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Insertion_Sort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear_Search/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap_Sort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merge_Sort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quick_Sort/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Select_Sort/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="G:\training-HieuNN\golang\Golang-Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (3)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang-Basic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,6 +72,22 @@
       <filePath value="$PROJECT_DIR$/Binary _Search/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Select_Sort/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Quick_Sort/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang-Basic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
@@ -122,6 +141,16 @@
           <url>file://$PROJECT_DIR$/Binary _Search/main.go</url>
           <line>11</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Select_Sort/main.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Quick_Sort/main.go</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
