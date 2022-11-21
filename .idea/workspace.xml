@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0a9d8d4-4eea-40a3-bc71-f1fd42b861df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Heap_Sort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merge_Sort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quick_Sort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Select_Sort/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Sort/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Sort/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quick_Sort/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Quick_Sort/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +46,14 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../QUICK-GIT/d-tck-app-oneminute-adminrole" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\training-HieuNN\golang\Golang-Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
+  <component name="RunManager" selected="Go Build.go build main.go (5)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang-Basic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -88,21 +86,21 @@
       <filePath value="$PROJECT_DIR$/Quick_Sort/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Golang-Basic" />
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Golang" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Insertion_Sort/main.go" />
+      <filePath value="$PROJECT_DIR$/Merge_Sort/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (3)" />
+        <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +148,7 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/Quick_Sort/main.go</url>
           <line>33</line>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

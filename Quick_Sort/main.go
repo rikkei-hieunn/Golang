@@ -15,7 +15,7 @@ func main() {
 
 	slice := generateSlice(20)
 	fmt.Println("\n--- Unsorted --- \n\n", slice)
-	quickSortChooseFirstValue(slice)
+	quickSort(slice)
 	fmt.Println("\n--- Sorted ---\n\n", slice, "\n")
 }
 
@@ -30,22 +30,24 @@ func generateSlice(size int) []int {
 	return slice
 }
 
-//C1: chọn chốt là phần tử đầu
-func quickSortChooseFirstValue(slice []int) []int {
+//C1: chọn chốt ngẫu nhiên
+func quickSort(slice []int) []int {
 	if len(slice) < 2 {
 		return slice
 	}
-	pivot := slice[0]
-	var leftArr, rightArr []int
+	left, right := 0, len(slice)-1
+	pivot := rand.Int() % len(slice)
+	slice[pivot], slice[right] = slice[right], slice[pivot]
 
-	for _, value := range slice {
-		if value >= pivot {
-			rightArr = append(rightArr, value)
-		} else {
-			leftArr = append(leftArr, value)
+	for index, _ := range slice {
+		if slice[index] < slice[right] {
+			slice[left], slice[index] = slice[index], slice[left]
+			left++
 		}
 	}
-	quickSortChooseFirstValue(leftArr)
-	quickSortChooseFirstValue(rightArr)
+	slice[left], slice[right] = slice[right], slice[left]
+	quickSort(slice[:left])
+	quickSort(slice[left+1:])
 	return slice
+
 }
